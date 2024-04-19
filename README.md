@@ -29,6 +29,7 @@ This project is a Python script that performs face recognition using the RetinaF
 - Place the input image for face recognition in the /content directory.
 - Create a folder named sample_images and add sample images of known individuals to this folder.
 - Run the script:
+  
   `python face_recognition_script.py`
 - The script will detect faces, save cropped faces, and match them with sample images, printing the results to the console.
 

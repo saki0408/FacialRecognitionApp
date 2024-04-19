@@ -16,13 +16,13 @@ This project is a Python script that performs face recognition using the RetinaF
 
 - Clone the repository:
 
-`git clone https://github.com/your-username/face-recognition-project.git`
+  `git clone https://github.com/your-username/face-recognition-project.git`
 
-`cd face-recognition-project`
+  `cd face-recognition-project`
 
 - Install dependencies:
 
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 
 - Usage
 

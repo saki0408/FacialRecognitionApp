@@ -4,13 +4,13 @@ This project is a Python script that performs face recognition using the RetinaF
 
 ## Features
 
-- Face Detection: Utilizes the RetinaFace model to accurately detect faces in the input image.
+- **Face Detection:** Utilizes the RetinaFace model to accurately detect faces in the input image.
 
-- Face Recognition: Matches the detected faces with known individuals from a set of sample images using cosine similarity.
+- **Face Recognition:** Matches the detected faces with known individuals from a set of sample images using cosine similarity.
 
-- Cropped Faces: Saves the extracted faces as individual images for further analysis or visualization.
+- **Cropped Faces:** Saves the extracted faces as individual images for further analysis or visualization.
 
-- Customizable: The script can be customized for specific use cases, such as incorporating ground truth information for evaluation.
+- **Customizable:** The script can be customized for specific use cases, such as incorporating ground truth information for evaluation.
 
 ## Installation
 
@@ -24,16 +24,13 @@ This project is a Python script that performs face recognition using the RetinaF
 
   `pip install -r requirements.txt`
 
-- Usage
+## Usage
 
-  - Place the input image for face recognition in the /content directory.
-  - Create a folder named sample_images and add sample images of known individuals to this folder.
-
+- Place the input image for face recognition in the /content directory.
+- Create a folder named sample_images and add sample images of known individuals to this folder.
 - Run the script:
-
-`python face_recognition_script.py`
-
-The script will detect faces, save cropped faces, and match them with sample images, printing the results to the console.
+  `python face_recognition_script.py`
+- The script will detect faces, save cropped faces, and match them with sample images, printing the results to the console.
 
 ## Documentation
 

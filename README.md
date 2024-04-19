@@ -2,39 +2,39 @@
 
 This project is a Python script that performs face recognition using the RetinaFace model for face detection and the face_recognition library for encoding and comparing faces. The script detects faces in an input image, extracts them, and matches them with known individuals from a set of sample images.
 
-Features
+## Features
 
-Face Detection: Utilizes the RetinaFace model to accurately detect faces in the input image.
+- Face Detection: Utilizes the RetinaFace model to accurately detect faces in the input image.
 
-Face Recognition: Matches the detected faces with known individuals from a set of sample images using cosine similarity.
+- Face Recognition: Matches the detected faces with known individuals from a set of sample images using cosine similarity.
 
-Cropped Faces: Saves the extracted faces as individual images for further analysis or visualization.
+- Cropped Faces: Saves the extracted faces as individual images for further analysis or visualization.
 
-Customizable: The script can be customized for specific use cases, such as incorporating ground truth information for evaluation.
-Installation
+- Customizable: The script can be customized for specific use cases, such as incorporating ground truth information for evaluation.
 
-Clone the repository:
+## Installation
 
-git clone https://github.com/your-username/face-recognition-project.git
+- Clone the repository:
 
-cd face-recognition-project
+`git clone https://github.com/your-username/face-recognition-project.git`
 
-Install dependencies:
+`cd face-recognition-project`
 
-pip install -r requirements.txt
+- Install dependencies:
 
-Usage
+`pip install -r requirements.txt`
 
-Place the input image for face recognition in the /content directory.
+- Usage
 
-Create a folder named sample_images and add sample images of known individuals to this folder.
+  - Place the input image for face recognition in the /content directory.
+  - Create a folder named sample_images and add sample images of known individuals to this folder.
 
-Run the script:
+- Run the script:
 
-python face_recognition_script.py
+`python face_recognition_script.py`
 
 The script will detect faces, save cropped faces, and match them with sample images, printing the results to the console.
 
-Documentation
+## Documentation
 
 For detailed documentation, including algorithm overview, code structure, customization options, and performance considerations, refer to Documentation.

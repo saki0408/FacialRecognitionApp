@@ -1,0 +1,97 @@
+.login-box{
+    height : 600px;
+    background: #8AAAE5;
+    width : 500px;
+    margin-left: 34%;
+    border-radius: 8px;
+    margin-top: 60px;
+    border: 3px black solid;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+}
+
+.box-title{
+    background-color: aliceblue;
+    height : 90px;
+    text-align: center;
+    padding-top: 1px;
+    border-radius : 3px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+}
+
+.box-title{
+    font-size: 35px;
+}
+
+.formbox{
+    padding-top: 30px;
+    padding-left: 5%;
+}
+
+.username{
+    font-size: 20px;
+}
+
+.namebox{
+    margin-top: 5px;
+    width : 90%;
+    margin-bottom: 30px;
+    height : 30px;
+    font-size: 20px;
+    padding-left : 18px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    border: 3px black solid;
+}
+
+.pass{
+    font-size: 20px;
+}
+
+.user-pass{
+    margin-top: 5px;
+    width : 90%;
+    margin-bottom: 30px;
+    height : 30px;
+    font-size: 20px;
+    padding-left : 18px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    border: 3px black solid;
+}
+
+.log-button{
+    margin-left : 210px;
+    width : 80px;
+    height : 30px;
+    font-size: medium;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    border: 3px black solid;
+}
+
+.sign-in-para{
+    margin-left : 33%;
+}
+
+.sign-in-button{
+    margin-left : 210px;
+    width : 80px;
+    height : 30px;
+    font-size: medium;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    border: 3px black solid;
+}
+
+.cover {
+    background-color: rgb(47, 106, 111);
+    height : 30px;
+    width : 100%;
+    margin-top : 50px;
+}
+
+.content{
+    margin-bottom: 6px;
+}

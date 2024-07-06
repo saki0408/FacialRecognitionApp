@@ -1,0 +1,35 @@
+.title-title{
+    padding-top: 20px;
+    padding-left: 30px;
+    height : 145px;
+    display: flexbox;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px black;
+}
+
+.aboutus-page{
+    height: 71%;
+    width: 94%;
+    background-color: #8AAAE5;
+    margin-left: 45px;
+    margin-top: 10px;
+    box-shadow: 7px 7px rgb(47, 47, 47);
+    border: 2px solid black;
+    padding-left : 5px ;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    overflow-y: scroll;
+}
+
+.box-content{
+    padding-left: 5px;
+}
+
+.aboutus-page::-webkit-scrollbar{
+    display: none;
+}
+
+.img1{
+    border-radius: 30px;
+}

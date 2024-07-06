@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/static/signin.css">  
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>User Sign Up</h2>
+        <form action="{{ url_for('signup') }}" method="post">
+            {% if message is defined and message %}
+                <div class="alert alert-warning">{{ message }}</div>
+            {% endif %}
+            <div class="form-group">
+                <label for="username">Name:</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="phone" class="numb">Roll Number:</label>
+                <input type="text" class="form-control number" id="phone" name="phone" placeholder="Enter Number" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="password_" name="password_" placeholder="Enter Password" name="pswd">
+            </div>    
+            <button type="submit" class="btn btn-primary">Register</button>
+            <p class="bottom">Already have an account?  <a class="bottomlink" href="{{url_for('login')}}"> Login here</a></p>
+        </form>
+    </div>        
+</body>
+</html>

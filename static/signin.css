@@ -1,0 +1,85 @@
+
+body{
+    background: url('/static/bk4.jpg');
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 110hv;
+    width: auto;
+}
+
+.container{
+    background-color: rgba(32, 32, 169,0.9);
+    box-shadow: 20px solid rgb(184, 22, 22);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px solid rgb(101, 142, 218);
+    border-radius: 10px;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 90px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+h2{
+    color: white;
+    font-family: 'Arial';
+    font-size: 30px;
+}
+
+.alert{
+    color: yellow;
+    margin-left: 35px;
+}
+
+.form-group{
+    color: white;
+    padding: 20px;
+}
+
+
+.form-control{
+    background-color: rgb(36, 36, 106);
+    border: 1px solid rgb(101, 142, 218) ;
+}
+
+.form-control:focus{
+    border: 3px solid rgb(101, 142, 218);
+    background-color: rgb(36, 36, 106);
+    color: white;
+}
+
+
+.btn{
+    color: white;
+    background-color: rgb(71, 71, 255);
+    margin-left: 42%;
+    margin-top: 10px;
+    border: 1px solid rgb(101, 142, 218);
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    color: rgb(41, 41, 255);
+    background-color: white;
+}
+
+.bottom{
+    color: white;
+    font-size: 10px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.bottomlink{
+    transition: 0.3s;
+}
+
+.bottomlink:hover{
+    color: rgb(56, 56, 255);
+}
+

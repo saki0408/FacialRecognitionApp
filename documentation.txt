@@ -1,0 +1,53 @@
+Face Recognition with RetinaFace and face_recognition
+DSA Project (CS 203)
+
+OVERVIEW
+This documentation provides an overview and detailed information about the Python script for face recognition using the RetinaFace model for face detection and the face_recognition library for encoding and comparing faces.
+
+CONTENTS
+1. Installation
+2. Usage
+3. Algorithm Overview
+4. Code Structure
+5. Customization
+6. Performance Considerations
+7. Contributing
+8. License
+
+INSTALLATION
+To use this script, you need to install the required dependencies. You can install them using the following command:
+
+	pip install -r requirements.txt
+
+USAGE
+To use the script, follow these steps:
+
+1. Place the input image for face recognition in the /content directory.
+2. Create a folder named sample_images and add sample images of known individuals to this folder.
+3. Run the script using the following command:
+
+	python face_recognition_script.py
+
+ALGORITHM OVERVIEW
+The script follows the following algorithm:
+
+1. Use RetinaFace to detect faces in the input image and extract them.
+2. Save the extracted faces to the cropped_faces directory.
+3. Load sample images and compute face encodings.
+4. Compare the face encodings of detected faces with those of sample images using cosine similarity.
+5. Print results, indicating matches and their cosine similarity scores.
+
+CODE STRUCTURE
+1. The script is organized into sections for face detection, saving cropped faces, loading sample images, face recognition, and displaying results.
+2. It uses functions from the RetinaFace library for face detection and face_recognition library for encoding and comparing faces.
+3. Customizable sections are marked with comments, indicating where additional logic or improvements can be added.
+
+CUSTOMIZATION
+1. Ground truth information can be incorporated for evaluation by uncommenting and implementing the get_ground_truth function.
+2. Thresholds for cosine similarity or other metrics can be adjusted based on specific requirements.
+
+PERFORMANCE CONSIDERATIONS
+The script can be optimized for performance, especially for large datasets, by exploring optimizations or using more efficient face recognition libraries.
+
+CONTRIBUTING
+Contributions to the project are welcome. Fork the repository, make your changes, and submit a pull request.
